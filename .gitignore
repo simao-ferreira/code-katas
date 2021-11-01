@@ -30,3 +30,6 @@ build
 *.zip
 *.tar.gz
 *.rar
+
+# Gradle wrapper
+!gradle/wrapper/gradle-wrapper.jar

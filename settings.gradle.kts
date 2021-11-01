@@ -1,2 +1,1 @@
-rootProject.name = "java-kotlin-gradle-template"
-
+rootProject.name = "code-katas"

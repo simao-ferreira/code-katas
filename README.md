@@ -1,13 +1,3 @@
-# Java Kotlin Gradle Template App
+# Code katas
 
-Simple project template for Java and Kotlin.
-
-Template was built with IDE, like intellij, in mind.
-
-Contents:
-
-* Gradle
-* Groovy
-* Java
-* Kotlin
-* Spock
+Just some code training exercises
