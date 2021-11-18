@@ -33,3 +33,7 @@ build
 
 # Gradle wrapper
 !gradle/wrapper/gradle-wrapper.jar
+
+#vscode
+.settings
+.project

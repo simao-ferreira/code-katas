@@ -13,6 +13,7 @@ repositories {
 
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib:1.5.31")
+	compileOnly("org.projectlombok:lombok:1.18.22")
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.1")
     testImplementation("org.codehaus.groovy:groovy-all:3.0.8")
     testImplementation("org.spockframework:spock-core:2.0-groovy-3.0")
