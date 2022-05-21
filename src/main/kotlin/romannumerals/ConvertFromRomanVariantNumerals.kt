@@ -5,6 +5,8 @@ class ConvertFromRomanVariantNumerals : ConvertFromRomanNumerals() {
     // Step one, define a simple - even clumsy - way to map values
     override fun convertFromRomanNumerals(romanNumeral: String): Int {
 
+        validateInput(romanNumeral)
+
         var holder = 0
 
         for (numeral in romanNumeral.toCharArray()) {

@@ -49,4 +49,22 @@ class ConvertFromRomanVariantNumeralsTest extends Specification {
         'DCLIIB'   || _
         'xVi'      || _
     }
+
+    @Unroll
+    def 'Should throw an exception if character is duplicated - #romanInput'() {
+        when:
+        numerals.convertFromRomanNumerals(romanInput)
+
+        then:
+
+        thrown(IllegalArgumentException)
+
+        where:
+        romanInput || _
+        'VV'       || _
+        'LL'       || _
+        'DD'       || _
+        'XXVIV'    || _
+        'XXVV'     || _
+    }
 }
